@@ -1,0 +1,1 @@
+﻿DBCC CHECKIDENT('Tyo', RESEED, 0)
