@@ -102,7 +102,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="formi.aspx" />
-    <Content Include="Global.asax" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -116,15 +115,15 @@
     <Compile Include="formi.aspx.designer.cs">
       <DependentUpon>formi.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
+    <Compile Include="Global.asax.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Connected Services\Application Insights\ConnectedService.json" />
+    <Content Include="ClassDiagram3.cd" />
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\tyoaikaseuranta20200305091157 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -136,6 +135,9 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
