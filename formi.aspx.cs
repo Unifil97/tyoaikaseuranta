@@ -16,7 +16,7 @@ namespace tyoaikaseuranta
 {
     public partial class formi : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection("Server=tcp:tyoaikaseuranta20200305091157dbserver.database.windows.net,1433;Initial Catalog=tyoaikaseuranta20200305091157_db;Persist Security Info=False;User ID=timo;Password=**********;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+        SqlConnection con = new SqlConnection("Server=tcp:Oma sivu tähän,dbserver.database.windows.net,1433;Initial Catalog=tyoaikaseuranta20200305091157_db;Persist Security Info=False;User ID=timo;Password=**********;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
        // SqlConnection con = new SqlConnection("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = Tyot; Integrated Security = True; Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         private decimal summa = (decimal)0.0;
         protected void Page_Load(object sender, EventArgs e)
